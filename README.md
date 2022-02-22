@@ -5,10 +5,10 @@
 
 initialization arguments
 1. poolsize
-	type: int
-	description:
-		size of multiprocessing thread
-		poolsize numbers of threads will be created to execute the process
+	- type: int
+	- description:
+		- size of multiprocessing thread
+		- poolsize numbers of threads will be created to execute the process
 2. max_time
 	type: int
 	description:

@@ -24,18 +24,18 @@ initialization arguments
 
 
 start function arguments
-	Inputs
-		1. fun
-			type: callable function
-			description:
-				function accepting n number of arguments
-		2. args_list
-			type: iterable object
-			description:
-				start function will call fun with every argument in args_list
-				list of tuple is one example for args_list
-				refer example-1 for function accepting 2 arguments
-				refer example-2 for function accepting no argument
-	Returns
-		1. res
-			list of returns from fun on args_list
+1. Inputs
+	1. fun
+		type: callable function
+		description:
+			function accepting n number of arguments
+	2. args_list
+		type: iterable object
+		description:
+			start function will call fun with every argument in args_list
+			list of tuple is one example for args_list
+			refer example-1 for function accepting 2 arguments
+			refer example-2 for function accepting no argument
+2. Returns
+	1. res
+		list of returns from fun on args_list

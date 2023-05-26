@@ -1,24 +1,41 @@
-from codecs import open as co_open
+import json
 
-from json import dump as j_dump
-from json import load as j_load
+def read_json(file_path):
+    """
+    Read data from a JSON file.
 
-from os.path import dirname as os_dirname
-from os.path import exists as os_exists
-from os import makedirs as os_makedirs
+    Args:
+        file_path (str): The path to the JSON file.
 
-def read_json(filename):
-	input_file = open(filename)
-	json_array = j_load(input_file)
-	return json_array
+    Returns:
+        dict: The JSON data as a dictionary.
 
-def ensure_dir(file_path):
-	if '/' in file_path:
-		directory = os_dirname(file_path)
-		if not os_exists(directory):
-			os_makedirs(directory)
+    Raises:
+        FileNotFoundError: If the specified file does not exist.
+        json.JSONDecodeError: If the JSON data is invalid.
+    """
+    try:
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+        return data
+    except FileNotFoundError:
+        raise FileNotFoundError(f"The file '{file_path}' does not exist.")
+    except json.JSONDecodeError as e:
+        raise json.JSONDecodeError(f"Error decoding JSON in '{file_path}': {e.msg}", e.doc, e.pos)
 
-def write_json(dict_,file_path):
-	ensure_dir(file_path)
-	j_dump(dict_, co_open(file_path, 'w', encoding='utf-8'), separators=(',', ':'), sort_keys=True, indent=4)
+def write_json(data, file_path):
+    """
+    Write data to a JSON file.
 
+    Args:
+        data (dict): The data to be written as a dictionary.
+        file_path (str): The path to the JSON file.
+
+    Raises:
+        TypeError: If the data is not of type 'dict'.
+    """
+    try:
+        with open(file_path, 'w') as file:
+            json.dump(data, file, sort_keys=True, indent=4)
+    except FileNotFoundError:
+        raise FileNotFoundError(f"The file '{file_path}' does not exist.")

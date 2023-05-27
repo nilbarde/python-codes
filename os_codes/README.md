@@ -41,6 +41,8 @@ Retrieve files inside a directory, including sub-folders (if `recursive` is `Tru
 
 ### Usage
 ```python
+from directory_listing import get_files_in_directory
+
 directory_path = "path/to/directory"
 files = get_files_in_directory(directory_path, suffix=".txt", recursive=True, return_full_path=True)
 print("Files in the directory:")

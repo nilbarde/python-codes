@@ -86,6 +86,8 @@ Checks if the given folder exists or not, and if it does not exist, creates it.
 
 ### Usage
 ```python
+from folder_management import create_folder
+
 folder_path = "path/to/new_folder"
 success = create_folder(folder_path)
 if success:

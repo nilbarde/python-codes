@@ -1,8 +1,3 @@
-# python-codes
-simple python codes for small tasks for file handling 
-
----
-
 # JSON File Operations
 
 This module provides functions for reading and writing data from/to JSON files.
@@ -23,6 +18,8 @@ Read data from a JSON file.
 
 ### Usage
 ```python
+from json_reader import read_json
+
 file_path = "path/to/file.json"
 try:
     json_data = read_json(file_path)

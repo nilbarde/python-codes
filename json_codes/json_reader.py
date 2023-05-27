@@ -1,5 +1,6 @@
 import json
 
+
 def read_json(file_path):
     """
     Read data from a JSON file.
@@ -22,6 +23,7 @@ def read_json(file_path):
         raise FileNotFoundError(f"The file '{file_path}' does not exist.")
     except json.JSONDecodeError as e:
         raise json.JSONDecodeError(f"Error decoding JSON in '{file_path}': {e.msg}", e.doc, e.pos)
+
 
 if __name__ == "__main__":
     file_path = "path/to/file.json"

@@ -65,6 +65,8 @@ Gets the last modified time of a file.
 
 ### Usage
 ```python
+from file_timestamp import get_last_modified_time
+
 filepath = "path/to/file.txt"
 last_modified_time = get_last_modified_time(filepath)
 print(f"Last modified time of '{filepath}': {last_modified_time}")

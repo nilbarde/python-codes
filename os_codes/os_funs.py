@@ -1,20 +1,8 @@
 import os
-from datetime import datetime
 
 from file_size import get_file_size
 from directory_listing import get_files_in_directory
-
-def get_last_modified_time(filepath):
-    """Gets the last modified time of a file.
-
-    Args:
-        filepath: The path to the file.
-
-    Returns:
-        The last modified time of the file as a datetime object.
-    """
-
-    return datetime.fromtimestamp(os.path.getmtime(filepath))
+from file_timestamp import get_last_modified_time
 
 
 def create_folder(folder_path):

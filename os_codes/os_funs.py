@@ -1,18 +1,7 @@
 import os
 from datetime import datetime
 
-
-def get_file_size(filepath):
-  """Gets the size of a file in bytes.
-
-  Args:
-    filepath: The path to the file.
-
-  Returns:
-    The size of the file in bytes.
-  """
-  stat = os.stat(filepath)
-  return stat.st_size
+from file_size import get_file_size
 
 
 def get_files_in_directory(directory_path, suffix=None, recursive=False, return_full_path=False):

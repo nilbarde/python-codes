@@ -1,35 +1,91 @@
-# python-codes
-simple python codes for small tasks for file handling 
+# File Utility Functions
+
+This module provides utility functions for working with files and directories.
+
+## `get_file_size(filepath)`
+
+Gets the size of a file in bytes.
+
+### Arguments
+- `filepath` (str): The path to the file.
+
+### Returns
+- `int`: The size of the file in bytes.
+
+### Usage
+```python
+filepath = "path/to/file.txt"
+size = get_file_size(filepath)
+print(f"Size of '{filepath}': {size} bytes")
+```
 
 ---
 
-# JSON File Operations
+## `get_files_in_directory(directory_path, suffix=None, recursive=False, return_full_path=False)`
 
-This module provides functions for reading and writing data from/to JSON files.
-
-## `read_json(file_path)`
-
-Read data from a JSON file.
+Retrieve files inside a directory, including sub-folders (if `recursive` is `True`).
 
 ### Arguments
-- `file_path` (str): The path to the JSON file.
+- `directory_path` (str): The path to the directory.
+- `suffix` (str, optional): A suffix to filter the file names. Defaults to `None`.
+- `recursive` (bool, optional): Whether to search for files recursively inside sub-folders. If set to `True`, then `return_full_path` is also set to `True`. Defaults to `False`.
+- `return_full_path` (bool, optional): Whether to return the full file path or just the file name. Defaults to `False`.
 
 ### Returns
-- `dict`: The JSON data as a dictionary.
+- `list`: A list of file paths (or file names) matching the specified suffix (if provided) or all files in the directory.
 
 ### Raises
-- `FileNotFoundError`: If the specified file does not exist.
-- `json.JSONDecodeError`: If the JSON data is invalid.
+- `FileNotFoundError`: If the specified directory does not exist.
 
-## `write_json(data, file_path)`
+### Usage
+```python
+directory_path = "path/to/directory"
+files = get_files_in_directory(directory_path, suffix=".txt", recursive=True, return_full_path=True)
+print("Files in the directory:")
+for file_path in files:
+    print(file_path)
 
-Write data to a JSON file.
+```
+
+---
+
+## `get_last_modified_time(filepath)`
+
+Gets the last modified time of a file.
 
 ### Arguments
-- `data` (dict): The data to be written as a dictionary.
-- `file_path` (str): The path to the JSON file.
+- `filepath` (str): The path to the file.
 
-### Raises
-- `TypeError`: If the data is not of type 'dict'.
+### Returns
+- `datetime.datetime`: The last modified time of the file as a `datetime` object.
+
+### Usage
+```python
+filepath = "path/to/file.txt"
+last_modified_time = get_last_modified_time(filepath)
+print(f"Last modified time of '{filepath}': {last_modified_time}")
+```
+
+---
+
+## `create_folder(folder_path)`
+
+Checks if the given folder exists or not, and if it does not exist, creates it.
+
+### Arguments
+- `folder_path` (str): The path to the folder to check or create.
+
+### Returns
+- `bool`: `True` if the folder exists or was created, `False` otherwise.
+
+### Usage
+```python
+folder_path = "path/to/new_folder"
+success = create_folder(folder_path)
+if success:
+    print(f"Folder '{folder_path}' created or already exists.")
+else:
+    print(f"Failed to create folder '{folder_path}'.")
+```
 
 ---

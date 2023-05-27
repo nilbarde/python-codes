@@ -10,6 +10,7 @@ def get_file_size(filepath):
     Returns:
         The size of the file in bytes.
     """
+
     stat = os.stat(filepath)
     return stat.st_size
 

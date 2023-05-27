@@ -18,6 +18,7 @@ def get_files_in_directory(directory_path, suffix=None, recursive=False, return_
     Raises:
         FileNotFoundError: If the specified directory does not exist.
     """
+
     if not os.path.exists(directory_path):
         raise FileNotFoundError(f"The directory '{directory_path}' does not exist.")
 

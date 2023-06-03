@@ -53,8 +53,8 @@ class MultiprocessingTimer:
                 for task, arg, kwarg in zip(tasks, self.args, self.kwargs):
                     if task.ready():
                         result = task.get()
-                        results.append((arg, result))
+                        results.append(result)
                     else:
-                        results.append((arg, None))
+                        results.append(None)
 
         return results

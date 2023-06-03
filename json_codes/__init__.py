@@ -1,2 +1,2 @@
-from json_reader import read_json
-from json_writer import write_json
+from read_json.read_json import read_json
+from write_json.write_json import write_json

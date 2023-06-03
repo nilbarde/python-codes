@@ -3,7 +3,7 @@ import time
 from tqdm import tqdm
 
 class MultiprocessingTimer:
-    def __init__(self, target, args=(), kwargs=None, timeout=None, max_workers=None):
+    def __init__(self, target, args=(), kwargs=None, timeout=None, max_workers=None, progress_update_interval=1):
         """
         Initialize the MultiprocessingTimer object.
 
@@ -13,6 +13,7 @@ class MultiprocessingTimer:
             kwargs (list): The list of dictionaries, each representing keyword arguments for the corresponding task.
             timeout (float): The maximum duration (in seconds) for the tasks to run.
             max_workers (int): The maximum number of worker processes.
+            progress_update_interval (int): The interval (in seconds) at which to update the progress bar.
 
         """
         self.target = target
@@ -20,6 +21,7 @@ class MultiprocessingTimer:
         self.kwargs = kwargs or [{}] * len(args)  # If kwargs is not provided, default to empty dictionary for each task
         self.timeout = timeout
         self.max_workers = max_workers
+        self.progress_update_interval = progress_update_interval
 
     def run(self):
         """
@@ -40,7 +42,7 @@ class MultiprocessingTimer:
             with tqdm(total=len(tasks), desc="Tasks completed") as pbar:
                 start_time = time.time()
                 while time.time() - start_time < self.timeout:
-                    time.sleep(1)
+                    time.sleep(self.progress_update_interval)
                     completed_tasks = sum(task.ready() for task in tasks)
                     pbar.update(completed_tasks - pbar.n)
 

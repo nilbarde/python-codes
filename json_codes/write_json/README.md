@@ -11,7 +11,7 @@ Write data to a JSON file.
 
 ## Usage
 ```python
-from json_writer import write_json
+from write_json import write_json
 
 data = {"key1": "value1", "key2": "value2"}
 file_path = "path/to/file.json"

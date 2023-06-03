@@ -14,7 +14,7 @@ Read data from a JSON file.
 
 ## Usage
 ```python
-from json_reader import read_json
+from read_json import read_json
 
 file_path = "path/to/file.json"
 try:

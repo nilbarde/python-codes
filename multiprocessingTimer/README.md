@@ -66,6 +66,6 @@ Installation
 
 To install the required dependencies, use the following command:
 
-```shell
+```sh
 pip install tqdm
 ```

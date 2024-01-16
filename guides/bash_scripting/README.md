@@ -5,16 +5,16 @@ Welcome to the Bash Scripting Guide! This comprehensive guide is designed to hel
 ## Table of Contents
 
 1. [Introduction to Bash](01.introduction.md)
-2. [Writing Your First Script](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/02.first_script.md)
-3. [Variables and Data Types](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/03.variables.md)
-4. [Control Structures](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/04.control_structures.md)
-5. [Functions](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/05.functions.md)
-6. [Input/Output](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/06.input_output.md)
-7. [File Operations](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/07.file_operations.md)
-8. [Advanced Topics](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/08.advance_topics.md)
-9. [Best Practices and Tips](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/09.best_practices.md)
-10. [Case Studies and Examples](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/10.examples.md)
-11. [Resources and Further Learning](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/11.resources.md)
+2. [Writing Your First Script](02.first_script.md)
+3. [Variables and Data Types](03.variables.md)
+4. [Control Structures](04.control_structures.md)
+5. [Functions](05.functions.md)
+6. [Input/Output](06.input_output.md)
+7. [File Operations](07.file_operations.md)
+8. [Advanced Topics](08.advance_topics.md)
+9. [Best Practices and Tips](09.best_practices.md)
+10. [Case Studies and Examples](10.examples.md)
+11. [Resources and Further Learning](11.resources.md)
 
 ## 1. Introduction to Bash
 
@@ -116,9 +116,9 @@ Welcome to the Bash Scripting Guide! This comprehensive guide is designed to hel
 
 ## How to Use This Guide
 
-Start with the [Introduction to Bash](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/01.introduction.md) section and work your way through each topic sequentially. Each section provides a mix of theory, practical examples, and exercises to reinforce your learning.
+Start with the [Introduction to Bash](01.introduction.md) section and work your way through each topic sequentially. Each section provides a mix of theory, practical examples, and exercises to reinforce your learning.
 
-Feel free to jump to specific sections based on your current knowledge level or interests. The [Resources and Further Learning](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/11.resources.md) section offers additional materials to deepen your understanding.
+Feel free to jump to specific sections based on your current knowledge level or interests. The [Resources and Further Learning](11.resources.md) section offers additional materials to deepen your understanding.
 
 Happy scripting!
 

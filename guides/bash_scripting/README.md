@@ -4,7 +4,7 @@ Welcome to the Bash Scripting Guide! This comprehensive guide is designed to hel
 
 ## Table of Contents
 
-1. [Introduction to Bash](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/01.introduction.md)
+1. [Introduction to Bash](01.introduction.md)
 2. [Writing Your First Script](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/02.first_script.md)
 3. [Variables and Data Types](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/03.variables.md)
 4. [Control Structures](https://github.com/nilbarde/python-codes/blob/master/bash_scripting/04.control_structures.md)

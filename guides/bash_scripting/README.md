@@ -19,98 +19,98 @@ Welcome to the Bash Scripting Guide! This comprehensive guide is designed to hel
 ## 1. Introduction to Bash
 
 - **1.1 Overview**
-  - What is Bash?
-  - Why learn Bash scripting?
+   - What is Bash?
+   - Why learn Bash scripting?
 - **1.2 Getting Started**
-  - Opening a Bash shell
-  - Basic commands (`ls`, `cd`, `pwd`, etc.)
+   - Opening a Bash shell
+   - Basic commands (`ls`, `cd`, `pwd`, etc.)
 
 ## 2. Writing Your First Script
 
 - **2.1 Creating a Bash Script**
-  - Text editors for scripting (e.g., `nano`, `vim`)
-  - Creating and saving your first script
+   - Text editors for scripting (e.g., `nano`, `vim`)
+   - Creating and saving your first script
 - **2.2 Running a Bash Script**
-  - Executing scripts (`chmod +x`, `./script.sh`)
-  - Running scripts without execution permissions (`bash script.sh`)
+   - Executing scripts (`chmod +x`, `./script.sh`)
+   - Running scripts without execution permissions (`bash script.sh`)
 
 ## 3. Variables and Data Types
 
 - **3.1 Variables**
-  - Declaring and using variables
-  - Variable naming conventions
+   - Declaring and using variables
+   - Variable naming conventions
 - **3.2 Data Types**
-  - Strings, integers, arrays
-  - Special variables (`$0`, `$1`, `$#`, `$@`, `$?`)
+   - Strings, integers, arrays
+   - Special variables (`$0`, `$1`, `$#`, `$@`, `$?`)
 
 ## 4. Control Structures
 
 - **4.1 Conditional Statements**
-  - `if`, `elif`, `else` statements
-  - Comparison operators
+   - `if`, `elif`, `else` statements
+   - Comparison operators
 - **4.2 Loops**
-  - `for`, `while`, `until` loops
-  - Loop control statements (`break`, `continue`)
+   - `for`, `while`, `until` loops
+   - Loop control statements (`break`, `continue`)
 
 ## 5. Functions
 
 - **5.1 Defining Functions**
-  - Syntax for function creation
-  - Function arguments and return values
+   - Syntax for function creation
+   - Function arguments and return values
 - **5.2 Scope and Variables**
-  - Local and global variables in functions
+   - Local and global variables in functions
 
 ## 6. Input/Output
 
 - **6.1 Reading User Input**
-  - `read` command
-  - Input validation
+   - `read` command
+   - Input validation
 - **6.2 Output to Screen and Files**
-  - `echo`, `printf`
-  - Redirecting output (`>, >>`, `<`)
+   - `echo`, `printf`
+   - Redirecting output (`>, >>`, `<`)
 
 ## 7. File Operations
 
 - **7.1 File Testing**
-  - Checking if a file exists, is readable, etc.
+   - Checking if a file exists, is readable, etc.
 - **7.2 Reading and Writing Files**
-  - `cat`, `touch`, `echo` to manipulate files
+   - `cat`, `touch`, `echo` to manipulate files
 - **7.3 File Operations**
-  - Copying, moving, and deleting files and directories
+   - Copying, moving, and deleting files and directories
 
 ## 8. Advanced Topics
 
 - **8.1 Regular Expressions**
-  - Using `grep`, `sed`, and `awk`
+   - Using `grep`, `sed`, and `awk`
 - **8.2 Process Management**
-  - Background processes, signals
+   - Background processes, signals
 - **8.3 Error Handling**
-  - Exit codes, trapping signals
+   - Exit codes, trapping signals
 - **8.4 Debugging**
-  - `set -x`, `set +x`
+   - `set -x`, `set +x`
 
 ## 9. Best Practices and Tips
 
 - **9.1 Code Style and Formatting**
-  - Indentation, commenting, naming conventions
+   - Indentation, commenting, naming conventions
 - **9.2 Optimization Techniques**
-  - Efficiency in script writing
+   - Efficiency in script writing
 - **9.3 Security Considerations**
-  - Handling sensitive data, avoiding common pitfalls
+   - Handling sensitive data, avoiding common pitfalls
 
 ## 10. Case Studies and Examples
 
 - **10.1 Real-world Examples**
-  - Scripting solutions for common tasks
+   - Scripting solutions for common tasks
 - **10.2 Project Exercises**
-  - Practical exercises to reinforce learning
+   - Practical exercises to reinforce learning
 
 ## 11. Resources and Further Learning
 
 - **11.1 Books and Documentation**
-  - Recommended readings for deepening understanding
+   - Recommended readings for deepening understanding
 - **11.2 Online Platforms**
-  - Websites, forums, and communities for Bash scripting
+   - Websites, forums, and communities for Bash scripting
 
 ---
 

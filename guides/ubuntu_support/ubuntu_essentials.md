@@ -45,12 +45,12 @@ This guide provides a quick reference for essential Ubuntu commands. These comma
 ## 4. Package Management
 
 - **`apt`**: Advanced Package Tool for package management.
-  - **`apt update`**: Update package lists.
-  - **`apt upgrade`**: Upgrade installed packages.
-  - **`apt install`**: Install new packages.
-  - **`apt remove`**: Remove packages.
-  - **`apt search`**: Search for packages.
-  
+   - **`apt update`**: Update package lists.
+   - **`apt upgrade`**: Upgrade installed packages.
+   - **`apt install`**: Install new packages.
+   - **`apt remove`**: Remove packages.
+   - **`apt search`**: Search for packages.
+
 ## 5. System Information
 
 - **`uname`**: Display system information.

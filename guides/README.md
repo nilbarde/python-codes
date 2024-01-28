@@ -4,7 +4,7 @@ Welcome to the Developer Guides repository! This collection of guides is designe
 
 ## Guides Included
 
-### [Ubuntu Guides](ubuntu_spport/README.md)
+### [Ubuntu Guides](ubuntu_support/README.md)
 
 - Explore essential Ubuntu commands for efficient system management.
 - Learn about basic Ubuntu configurations and tips.
@@ -14,17 +14,17 @@ Welcome to the Developer Guides repository! This collection of guides is designe
 - Master GitHub with guides on basic commands on Ubuntu.
 - Enhance your collaboration and version control skills.
 
-### [Docker Guides](docker/)
+### [Docker Guides](docker_basics/README.md)
 
 - Dive into Docker with guides on creating images, managing containers, and optimizing workflows.
 - Explore Docker Compose for multi-container applications.
 
-### [Bash Scripting](bash/)
+### [Bash Scripting](bash_scripting/README.md)
 
 - Learn Bash scripting from the basics to advanced techniques.
 - Automate tasks and streamline your workflow with Bash.
 
-### [Python Guides](python/)
+### [Python Guides](python_exploration/README.md)
 
 - Improve your Python programming skills with guides on various topics.
 - Covering Python best practices, virtual environments, and more.
@@ -35,4 +35,4 @@ Feel free to explore the guides in this repository based on your level of expert
 
 ## Contributions
 
-If you have any suggestions, improvements, or would like to contribute to these guides, please open an issue or submit a pull request in my GitHub repository [python-codes](https://github.com/nilbarde/python-codes). Your feedback is highly appreciated!
+*If you have any suggestions, improvements, or would like to contribute to these guides, please open an issue or submit a pull request in my GitHub repository [python-codes](https://github.com/nilbarde/python-codes). Your feedback is highly appreciated!*

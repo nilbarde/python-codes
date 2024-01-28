@@ -59,6 +59,7 @@ Display the SSH key:
 ```bash
 cat ~/.ssh/id_rsa.pub
 ```
+
 Copy the displayed key.
 
 Go to your GitHub account > Settings > SSH and GPG keys > New SSH key, and paste the copied key.
@@ -78,3 +79,9 @@ If successful, you'll see a message indicating authentication.
 You have successfully set up an SSH key for GitHub on Ubuntu. This allows secure and convenient authentication when interacting with GitHub repositories.
 
 This guide covers the key steps to set up and configure an SSH key for GitHub on Ubuntu. Users can follow the instructions to ensure a secure and seamless authentication process when interacting with GitHub repositories
+
+---
+
+Go back to [GitHub Guide](README.md).
+
+Visit other [Developer Guides](../README.md).

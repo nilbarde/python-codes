@@ -6,7 +6,6 @@ Welcome to the Docker Guides repository! This folder contains basic guides relat
 
 1. **[Basic GitHub Commands](git_basic_commands.md)**
    - Learn essential GitHub commands for version control and collaboration.
-
 2. **[GitHub SSH Setup on Ubuntu](git_ssh_setup.md)**
    - Set up SSH keys for secure communication with GitHub repositories.
 
@@ -16,4 +15,8 @@ Feel free to explore the guides in this repository based on your level of expert
 
 ## Contributions
 
-If you have any suggestions, improvements, or would like to contribute to these guides, please open an issue or submit a pull request in my GitHub repository [python-codes](https://github.com/nilbarde/python-codes). Your feedback is highly appreciated!
+*If you have any suggestions, improvements, or would like to contribute to these guides, please open an issue or submit a pull request in my GitHub repository [python-codes](https://github.com/nilbarde/python-codes). Your feedback is highly appreciated!*
+
+---
+
+Visit other [Developer Guides](../README.md).

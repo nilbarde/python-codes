@@ -113,3 +113,9 @@ git log
 ```
 
 These are some basic Git commands to get you started. Explore more Git functionalities as you continue with your development projects.
+
+---
+
+Go back to [GitHub Guide](README.md).
+
+Visit other [Developer Guides](../README.md).

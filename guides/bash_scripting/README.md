@@ -16,100 +16,100 @@ Welcome to the Bash Scripting Guide! This comprehensive guide is designed to hel
 10. [Case Studies and Examples](10.examples.md)
 11. [Resources and Further Learning](11.resources.md)
 
-## 1. Introduction to Bash
+## Introduction to Bash
 
-- **1.1 Overview**
+- **Overview**
    - What is Bash?
    - Why learn Bash scripting?
-- **1.2 Getting Started**
+- **Getting Started**
    - Opening a Bash shell
    - Basic commands (`ls`, `cd`, `pwd`, etc.)
 
-## 2. Writing Your First Script
+## Writing Your First Script
 
-- **2.1 Creating a Bash Script**
+- **Creating a Bash Script**
    - Text editors for scripting (e.g., `nano`, `vim`)
    - Creating and saving your first script
-- **2.2 Running a Bash Script**
+- **Running a Bash Script**
    - Executing scripts (`chmod +x`, `./script.sh`)
    - Running scripts without execution permissions (`bash script.sh`)
 
-## 3. Variables and Data Types
+## Variables and Data Types
 
-- **3.1 Variables**
+- **Variables**
    - Declaring and using variables
    - Variable naming conventions
-- **3.2 Data Types**
+- **Data Types**
    - Strings, integers, arrays
    - Special variables (`$0`, `$1`, `$#`, `$@`, `$?`)
 
-## 4. Control Structures
+## Control Structures
 
-- **4.1 Conditional Statements**
+- **Conditional Statements**
    - `if`, `elif`, `else` statements
    - Comparison operators
-- **4.2 Loops**
+- **Loops**
    - `for`, `while`, `until` loops
    - Loop control statements (`break`, `continue`)
 
-## 5. Functions
+## Functions
 
-- **5.1 Defining Functions**
+- **Defining Functions**
    - Syntax for function creation
    - Function arguments and return values
-- **5.2 Scope and Variables**
+- **Scope and Variables**
    - Local and global variables in functions
 
-## 6. Input/Output
+## Input/Output
 
-- **6.1 Reading User Input**
+- **Reading User Input**
    - `read` command
    - Input validation
-- **6.2 Output to Screen and Files**
+- **Output to Screen and Files**
    - `echo`, `printf`
    - Redirecting output (`>, >>`, `<`)
 
-## 7. File Operations
+## File Operations
 
-- **7.1 File Testing**
+- **File Testing**
    - Checking if a file exists, is readable, etc.
-- **7.2 Reading and Writing Files**
+- **Reading and Writing Files**
    - `cat`, `touch`, `echo` to manipulate files
-- **7.3 File Operations**
+- **File Operations**
    - Copying, moving, and deleting files and directories
 
-## 8. Advanced Topics
+## Advanced Topics
 
-- **8.1 Regular Expressions**
+- **Regular Expressions**
    - Using `grep`, `sed`, and `awk`
-- **8.2 Process Management**
+- **Process Management**
    - Background processes, signals
-- **8.3 Error Handling**
+- **Error Handling**
    - Exit codes, trapping signals
-- **8.4 Debugging**
+- **Debugging**
    - `set -x`, `set +x`
 
-## 9. Best Practices and Tips
+## Best Practices and Tips
 
-- **9.1 Code Style and Formatting**
+- **Code Style and Formatting**
    - Indentation, commenting, naming conventions
-- **9.2 Optimization Techniques**
+- **Optimization Techniques**
    - Efficiency in script writing
-- **9.3 Security Considerations**
+- **Security Considerations**
    - Handling sensitive data, avoiding common pitfalls
 
-## 10. Case Studies and Examples
+## Case Studies and Examples
 
-- **10.1 Real-world Examples**
+- **Real-world Examples**
    - Scripting solutions for common tasks
-- **10.2 Project Exercises**
+- **Project Exercises**
    - Practical exercises to reinforce learning
 
-## 11. Resources and Further Learning
+## Resources and Further Learning
 
-- **11.1 Books and Documentation**
+- **Books and Documentation**
    - Recommended readings for deepening understanding
-- **11.2 Online Platforms**
+- **Online Platforms**
    - Websites, forums, and communities for Bash scripting
 
 ---
@@ -124,4 +124,6 @@ Happy scripting!
 
 ---
 
-*Note: This guide is actively maintained, and contributions are welcome. If you find errors or have suggestions for improvements, please open an issue or submit a pull request.*
+*If you have any suggestions, improvements, or would like to contribute to these guides, please open an issue or submit a pull request in my GitHub repository [python-codes](https://github.com/nilbarde/python-codes). Your feedback is highly appreciated!*
+
+Visit other [Developer Guides](../README.md).

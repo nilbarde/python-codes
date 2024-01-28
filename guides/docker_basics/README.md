@@ -6,10 +6,8 @@ Welcome to the Docker Guides! This collection of guides aims to provide a founda
 
 1. **[Docker Basics](docker_basics.md)**
    - Introduction to Docker, installation, basic commands, and understanding containerization.
-
 2. **[Creating Minimal Dockerfile for Ubuntu](docker_ubuntu.md)**
    - Step-by-step guide for creating a minimal Dockerfile tailored for development.
-
 3. **[Dockerfile Basics](dockerfile_basics.md)**
    - Learn the essentials of creating effective Dockerfiles for your applications.
 
@@ -19,4 +17,8 @@ Feel free to explore the guides in this repository based on your level of expert
 
 ## Contributions
 
-If you have any suggestions, improvements, or would like to contribute to these guides, please open an issue or submit a pull request in my GitHub repository [python-codes](https://github.com/nilbarde/python-codes). Your feedback is highly appreciated!
+*If you have any suggestions, improvements, or would like to contribute to these guides, please open an issue or submit a pull request in my GitHub repository [python-codes](https://github.com/nilbarde/python-codes). Your feedback is highly appreciated!*
+
+---
+
+Visit other [Developer Guides](../README.md).

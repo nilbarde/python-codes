@@ -87,3 +87,9 @@ This guide provides a quick reference for essential Ubuntu commands. These comma
 - **`reboot`**: Restart the system.
 
 These commands cover a range of basic operations for managing your Ubuntu system. Explore and use them according to your needs.
+
+---
+
+Go back to [Ubuntu Guide](README.md).
+
+Visit other [Developer Guides](../README.md).

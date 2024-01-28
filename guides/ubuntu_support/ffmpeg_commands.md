@@ -89,3 +89,9 @@ Overlay a video on a black screen:
 ```bash
 ffmpeg -i input.mp4 -vf "pad=width=1280:height=720:x=0:y=360" output.mp4
 ```
+
+---
+
+Go back to [Ubuntu Guide](README.md).
+
+Visit other [Developer Guides](../README.md).
